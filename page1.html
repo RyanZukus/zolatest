@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Table</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+	<script src="users.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<select name="sorter" id="sorter">
+		<option value=0 selected>Featured</option> 
+		<option value=1>A-Z</option>
+		<option value=2>Priority</option>
+	</select>
+	<form id="filtration">
+		<p>Filter by Category:</p>
+		<div class="filter-wrapper">
+			<input type="radio" name="filter-category" value="any" id="fc-all" checked>
+			<label for="fc-all">(Any/All)</label>
+		</div>
+	</form>
+	<div id="usertable" data-sort=0 data-filter="any">
+
+	</div>
+</body>
+</html>

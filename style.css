@@ -1,0 +1,51 @@
+#usertable {
+	width: 930px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+.usercell {
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	float: left;
+	width: 300px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.usercell:nth-child(-n+3) {
+  border-top: 1px solid black;
+}
+
+.usercell:nth-child(3n+1) {
+  border-left: 1px solid black;
+}
+
+.usercell.priority-1 {
+	background-color: #eebb66;
+}
+
+.usercell.priority-2 {
+	background-color: #77dd77;
+}
+
+.usercell.priority-3 {
+	background-color: #8888ff;
+}
+
+.usercell.priority-4 {
+	background-color: #ee77ff;
+}
+
+.usercell .name {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.usercell p {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.usercell .age {
+	font-style: italic;
+}
