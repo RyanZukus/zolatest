@@ -9,6 +9,7 @@ h3 {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 42px;
 	font-weight: 400;
+	margin: 0;
 }
 
 h4 {
@@ -24,4 +25,77 @@ p {
 	font-weight: 400;
 	letter-spacing: 1px;
 	line-height: 28px;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	position: relative;
+}
+
+header p {
+	display: inline-block;
+	padding-right: 15px;
+	font-size: 12px;
+}
+
+header p:last-child {
+	float: right;
+	text-align: right;
+	padding-right: 0;
+}
+
+header h3 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+main {
+	background-color: #6CB35D;
+}
+
+section {
+	position: relative;
+	width: 100%;
+}
+
+.splash img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: -4px;
+}
+
+.splash h2 {
+	position: absolute;
+	width: 100%;
+	top: 40%;
+	text-align: center;
+	color: #fff;
+}
+
+.post {
+	color: #fff;
+}
+
+.post:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.post div {
+	width: 50%;
+	float: left;
+}
+
+footer {
+
+}
+
+footer img {
+	height: auto;
+	width: 160px;
 }
