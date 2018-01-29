@@ -3,6 +3,7 @@ h2 {
 	font-size: 70px;
 	font-weight: 400;
 	letter-spacing: 4px;
+	text-transform: uppercase;
 }
 
 h3 {
@@ -10,6 +11,7 @@ h3 {
 	font-size: 42px;
 	font-weight: 400;
 	margin: 0;
+	text-transform: uppercase;
 }
 
 h4 {
@@ -113,6 +115,30 @@ footer img {
 }
 
 @media (max-width: 768px) {
+	h2 {
+		font-size: 19px;
+	}
+
+	h3 {
+		font-size: 15px;
+	}
+
+	p {
+		font-size: 19px;
+	}
+
+	header {
+		padding: 20px
+	}
+
+	header .preheader {
+		display: none;
+	}
+
+	header h3 {
+		text-align: left;
+	}
+
 	.post {
 		display: block
 	}
@@ -120,9 +146,22 @@ footer img {
 	.post div {
 		display: block;
 		width: 100%;
+		padding: 10px;
 	}
 
+	.post div h3 {
+		font-size: 20px;
+	}
 	.post .title-feather {
 		border-right: none;
 	}
+
+	.post .title-feather img {
+		display: none;
+	}
+
+	.post .title-feather p {
+		font-size: 15px;
+	}
+
 }
